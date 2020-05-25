@@ -15,7 +15,7 @@ var helloWorldABI = [
     "signature": "0x19ff1d21"
   }
 ];
-var helloWorldAddress = '0xCB2ebb9cE533EA4c8c409a07C3d7829A65E4dbf7';
+var helloWorldAddress = '0x583e52F0bBa71d5C4979878547eDC68Bd0BF8414';
 var web3 = new Web3('http://localhost:9545');
 var helloWorld = new web3.eth.Contract(helloWorldABI, helloWorldAddress);
 
