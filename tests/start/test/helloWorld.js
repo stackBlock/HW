@@ -1,4 +1,4 @@
-const HelloWorld = artifacts.require('HelloWorld');
+const HelloWorld = artifacts.require('HelloWorld'); //needs to be the name exact name of the sol file
 
 
 contract('HelloWorld', () => {
